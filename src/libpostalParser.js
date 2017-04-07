@@ -8,6 +8,11 @@ var field_mapping = {
   house:          'query',
   house_number:   'number',
   unit:           'unit',
+  level:          'level',
+  po_box:         'po_box',
+  staircase:      'staircase',
+  entrance:       'entrance',
+  near:           'near',
   road:           'street',
   suburb:         'neighbourhood',
   city_district:  'borough',
@@ -15,7 +20,9 @@ var field_mapping = {
   state_district: 'county',
   state:          'state',
   postcode:       'postalcode',
-  country:        'country'
+  country:        'country',
+  country_region: 'country_region',
+  world_region:   'world_region',
 };
 
 // wrapper for libpostal that injects the actual parse function for easier
