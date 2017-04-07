@@ -7,6 +7,7 @@ var field_mapping = {
   category:       'category',
   house:          'query',
   house_number:   'number',
+  unit:           'unit',
   road:           'street',
   suburb:         'neighbourhood',
   city_district:  'borough',
